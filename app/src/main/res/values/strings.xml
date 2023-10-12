@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="take_note">Создать заметку</string>
+    <string name="parity_odd">Нечетная неделя</string>
+    <string name="parity_even">Четная неделя</string>
+    <string name="tab_1">ПН</string>
+    <string name="tab_2">ВТ</string>
+    <string name="tab_3">СР</string>
+    <string name="tab_4">ЧТ</string>
+    <string name="tab_5">ПТ</string>
+    <string name="tab_6">СБ</string>
+    <string name="settings">Настройки</string>
+    <string name="interface_language">Язык интерфейса</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="bvt2201">БВТ2201</string>
+    <string name="bvt2202">БВТ2202</string>
+    <string name="bvt2203">БВТ2203</string>
+    <string name="bvt2204">БВТ2204</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="group_title">Номер группы</string>
+    <string name="theme_title">Темная тема</string>
+    <string name="note_hint">Место для ваших заметок</string>
+    <string name="custom_app_name">МТУСИ</string>
+</resources>

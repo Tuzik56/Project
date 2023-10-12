@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TimetableFragment1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/myRectangleView1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rectangle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/myRectangleView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rectangle"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView1"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView1"
+                app:layout_constraintTop_toBottomOf="@+id/myRectangleView1" />
+
+            <View
+                android:id="@+id/myRectangleView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rectangle"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView2"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView2"
+                app:layout_constraintTop_toBottomOf="@+id/myRectangleView2" />
+
+            <View
+                android:id="@+id/myRectangleView4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rectangle"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView3"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView3"
+                app:layout_constraintTop_toBottomOf="@+id/myRectangleView3" />
+
+            <View
+                android:id="@+id/myRectangleView5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rectangle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView4"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView4"
+                app:layout_constraintTop_toBottomOf="@+id/myRectangleView4" />
+
+            <View
+                android:id="@+id/myRectangleViewR1"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rectangle2"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView1"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView1" />
+
+            <View
+                android:id="@+id/myRectangleViewR2"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rectangle2"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView2"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView2" />
+
+            <View
+                android:id="@+id/myRectangleViewR3"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rectangle2"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView3"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView3" />
+
+            <View
+                android:id="@+id/myRectangleViewR4"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rectangle2"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView4"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView4" />
+
+            <View
+                android:id="@+id/myRectangleViewR5"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rectangle2"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView5"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView5" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineHeight="30dp"
+                android:text="9:30 - 11:05\n-\n-"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView1"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView1"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineHeight="30dp"
+                android:text="11:20 - 12:55\n-\n-"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView2"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView2"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineHeight="30dp"
+                android:text="13:10 - 14:45\n-\n-"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView3"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView3"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineHeight="30dp"
+                android:text="15:25 - 17:00\n-\n-"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView4"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView4"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView4" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineHeight="30dp"
+                android:text="17:15 - 18:50\n-\n-"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleView5"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleView5"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleView5" />
+
+            <TextView
+                android:id="@+id/textViewRoom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="─"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/myRectangleViewR1"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleViewR1"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleViewR1"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleViewR1" />
+
+            <TextView
+                android:id="@+id/textViewRoom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="─"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/myRectangleViewR2"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleViewR2"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleViewR2"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleViewR2" />
+
+            <TextView
+                android:id="@+id/textViewRoom3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="─"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/myRectangleViewR3"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleViewR3"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleViewR3"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleViewR3" />
+
+            <TextView
+                android:id="@+id/textViewRoom4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="─"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/myRectangleViewR4"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleViewR4"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleViewR4"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleViewR4" />
+
+            <TextView
+                android:id="@+id/textViewRoom5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="─"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/myRectangleViewR5"
+                app:layout_constraintEnd_toEndOf="@+id/myRectangleViewR5"
+                app:layout_constraintStart_toStartOf="@+id/myRectangleViewR5"
+                app:layout_constraintTop_toTopOf="@+id/myRectangleViewR5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>
